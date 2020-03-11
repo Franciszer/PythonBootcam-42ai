@@ -7,4 +7,3 @@ def	ft_map(func, *args):
 		func_args = [arg[i] for arg in args]
 		output.append(func(*func_args))
 	return (output)
-
